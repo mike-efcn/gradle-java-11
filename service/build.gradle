@@ -40,3 +40,7 @@ dependencyManagement {
 test {
 	useJUnitPlatform()
 }
+
+jar {
+	enabled = false
+}
